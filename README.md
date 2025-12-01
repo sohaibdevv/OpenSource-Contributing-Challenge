@@ -88,6 +88,6 @@ A **Pull Request** is the formal way of asking the original project owner (me!) 
 
 ## 🤝 Contributors List (Add your entry here!)
 
-* [sohaibdevv](https://github.com/sohaibdevv)
+* [Sohaibdevv](https://github.com/sohaibdevv)
 
 **Inspired by a Random Idea.**
