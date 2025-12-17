@@ -31,6 +31,10 @@ Scroll to the **Contributors List** and add a line like:
 ```
 * [YourName](https://github.com/YourUsername)
 ```
+Example:
+```
+* [Sohaibdevv](https://github.com/sohaibdevv)
+```
 
 That’s the only change you need to make.
 
