@@ -1,0 +1,28 @@
+name: First Contribution Check
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check README.md for contributor entry
+        run: |
+          # Look for a GitHub profile link pattern in README.md
+          if grep -Eq "\* 
+          
+
+\[.+\]
+
+\(https://github.com/.+\)" README.md; then
+            echo "✅ Contributor entry found in README.md"
+          else
+            echo "❌ Please add your name and GitHub link under 'Contributors List' in README.md"
+            exit 1
+          fi
